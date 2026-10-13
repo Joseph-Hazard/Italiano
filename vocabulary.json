@@ -1,0 +1,72 @@
+[
+  {
+    "id": "v001",
+    "fr": "J’aimerais faire un stage.",
+    "it": "Vorrei fare uno stage.",
+    "cat": "Travail et études",
+    "ex": "Vorrei + infinitif : vorrei imparare, vorrei lavorare."
+  },
+  {
+    "id": "v002",
+    "fr": "une entreprise",
+    "it": "un’azienda",
+    "cat": "Travail et études",
+    "ex": "Leonardo è un’azienda italiana."
+  },
+  {
+    "id": "v003",
+    "fr": "similaire à",
+    "it": "simile a",
+    "cat": "Expressions",
+    "ex": "La parola è simile a quella francese."
+  },
+  {
+    "id": "v004",
+    "fr": "parce que",
+    "it": "perché",
+    "cat": "Expressions",
+    "ex": "Mi interessa perché…"
+  },
+  {
+    "id": "v005",
+    "fr": "en électronique",
+    "it": "in elettronica",
+    "cat": "Électronique / aérospatial",
+    "ex": "Vorrei fare uno stage in elettronica."
+  },
+  {
+    "id": "v006",
+    "fr": "en Allemagne",
+    "it": "in Germania",
+    "cat": "Voyage",
+    "ex": "Studio in Francia e parlo tedesco."
+  },
+  {
+    "id": "v007",
+    "fr": "J’aime étudier l’italien.",
+    "it": "Mi piace studiare l’italiano.",
+    "cat": "Expressions",
+    "ex": "Mi piace + infinitif."
+  },
+  {
+    "id": "v008",
+    "fr": "Je m’excuse / excuse-moi.",
+    "it": "Scusami.",
+    "cat": "Expressions",
+    "ex": "Forme familière ; Scusi est plus formel."
+  },
+  {
+    "id": "v009",
+    "fr": "faire",
+    "it": "fare",
+    "cat": "Verbes",
+    "ex": "Vorrei fare uno stage."
+  },
+  {
+    "id": "v010",
+    "fr": "Je voudrais",
+    "it": "Vorrei",
+    "cat": "Grammaire",
+    "ex": "Conditionnel de volere."
+  }
+]
