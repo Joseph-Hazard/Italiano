@@ -4,391 +4,524 @@
     "type": "word",
     "fr": "un stage",
     "it": "uno stage",
-    "cat": "Travail et études",
-    "ex": "Vorrei fare uno stage a Milano."
+    "ex": "Vorrei fare uno stage a Milano.",
+    "categories": [
+      "Basic nouns 1",
+      "Work"
+    ]
   },
   {
     "id": "w002",
     "type": "word",
     "fr": "une entreprise",
     "it": "un’azienda",
-    "cat": "Travail et études",
-    "ex": "Un’azienda italiana."
+    "ex": "Un’azienda italiana.",
+    "categories": [
+      "Basic nouns 1",
+      "Work"
+    ]
   },
   {
     "id": "w003",
     "type": "word",
     "fr": "similaire à",
     "it": "simile a",
-    "cat": "Expressions",
-    "ex": "Essere simile a qualcosa."
+    "ex": "Essere simile a qualcosa.",
+    "categories": [
+      "Basic adjectives 1"
+    ]
   },
   {
     "id": "w004",
     "type": "word",
     "fr": "parce que / pourquoi",
     "it": "perché",
-    "cat": "Mots utiles",
-    "ex": "Perché? = Pourquoi ? · perché = parce que."
+    "ex": "Perché? = Pourquoi ? · perché = parce que.",
+    "categories": [
+      "Basic expressions 1"
+    ]
   },
   {
     "id": "w005",
     "type": "word",
     "fr": "électronique",
     "it": "elettronica",
-    "cat": "Électronique / aérospatial",
-    "ex": "Studio elettronica."
+    "ex": "Studio elettronica.",
+    "categories": [
+      "Basic nouns 1",
+      "Aerospace"
+    ]
   },
   {
     "id": "w006",
     "type": "word",
     "fr": "Allemagne",
     "it": "Germania",
-    "cat": "Pays et lieux",
-    "ex": "In Germania."
+    "ex": "In Germania.",
+    "categories": [
+      "Basic nouns 1",
+      "Travel"
+    ]
   },
   {
     "id": "w007",
     "type": "word",
     "fr": "France",
     "it": "Francia",
-    "cat": "Pays et lieux",
-    "ex": "In Francia."
+    "ex": "In Francia.",
+    "categories": [
+      "Basic nouns 1",
+      "Travel"
+    ]
   },
   {
     "id": "w008",
     "type": "word",
     "fr": "faire",
     "it": "fare",
-    "cat": "Verbes",
-    "ex": "Fare uno stage."
+    "ex": "Fare uno stage.",
+    "categories": [
+      "Basic verbs 1"
+    ]
   },
   {
     "id": "w009",
     "type": "word",
     "fr": "je voudrais",
     "it": "vorrei",
-    "cat": "Verbes",
-    "ex": "Vorrei + infinitif."
+    "ex": "Vorrei + infinitif.",
+    "categories": [
+      "Basic verbs 1"
+    ]
   },
   {
     "id": "w010",
     "type": "word",
     "fr": "est / c’est",
     "it": "è",
-    "cat": "Verbes",
-    "ex": "OHB è un’azienda."
+    "ex": "OHB è un’azienda.",
+    "categories": [
+      "Basic verbs 1"
+    ]
   },
   {
     "id": "w011",
     "type": "word",
     "fr": "par exemple",
     "it": "per esempio",
-    "cat": "Connecteurs",
-    "ex": "Per esempio, …"
+    "ex": "Per esempio, …",
+    "categories": [
+      "Basic expressions 1"
+    ]
   },
   {
     "id": "w012",
     "type": "word",
     "fr": "mais",
     "it": "ma",
-    "cat": "Connecteurs",
-    "ex": "…, ma …"
+    "ex": "…, ma …",
+    "categories": [
+      "Basic expressions 1"
+    ]
   },
   {
     "id": "w013",
     "type": "word",
     "fr": "aussi",
     "it": "anche",
-    "cat": "Connecteurs",
-    "ex": "Anche in Germania."
+    "ex": "Anche in Germania.",
+    "categories": [
+      "Basic expressions 1"
+    ]
   },
   {
     "id": "w014",
     "type": "word",
     "fr": "j’aime étudier l’italien",
     "it": "mi piace studiare l’italiano",
-    "cat": "Expressions",
-    "ex": "Mi piace + infinitif."
+    "ex": "Mi piace + infinitif.",
+    "categories": [
+      "Basic expressions 1"
+    ]
   },
   {
     "id": "w015",
     "type": "word",
     "fr": "excuse-moi",
     "it": "scusami",
-    "cat": "Expressions",
-    "ex": "Forme familière ; « Scusi » est plus formel."
+    "ex": "Forme familière ; « Scusi » est plus formel.",
+    "categories": [
+      "Basic expressions 1"
+    ]
   },
   {
     "id": "w016",
     "type": "word",
     "fr": "similaire",
     "it": "simile",
-    "cat": "Adjectifs",
-    "ex": "Simile a Thales."
+    "ex": "Simile a Thales.",
+    "categories": [
+      "Basic adjectives 1"
+    ]
   },
   {
     "id": "w017",
     "type": "word",
     "fr": "en électronique",
     "it": "in elettronica",
-    "cat": "Électronique / aérospatial",
-    "ex": "Uno stage in elettronica."
+    "ex": "Uno stage in elettronica.",
+    "categories": [
+      "Basic expressions 1",
+      "Aerospace"
+    ]
   },
   {
     "id": "w018",
     "type": "word",
     "fr": "en Allemagne",
     "it": "in Germania",
-    "cat": "Pays et lieux",
-    "ex": "Lavorare in Germania."
+    "ex": "Lavorare in Germania.",
+    "categories": [
+      "Basic expressions 1",
+      "Travel"
+    ]
   },
   {
     "id": "w019",
     "type": "word",
     "fr": "en France",
     "it": "in Francia",
-    "cat": "Pays et lieux",
-    "ex": "Studio in Francia."
+    "ex": "Studio in Francia.",
+    "categories": [
+      "Basic expressions 1",
+      "Travel"
+    ]
   },
   {
     "id": "w020",
     "type": "word",
     "fr": "câble",
     "it": "cavo",
-    "cat": "Électronique / aérospatial",
-    "ex": "Un cavo elettrico."
+    "ex": "Un cavo elettrico.",
+    "categories": [
+      "Basic nouns 1",
+      "Aerospace"
+    ]
   },
   {
     "id": "w021",
     "type": "word",
     "fr": "fil électrique",
     "it": "filo elettrico",
-    "cat": "Électronique / aérospatial",
-    "ex": "Un filo elettrico."
+    "ex": "Un filo elettrico.",
+    "categories": [
+      "Basic nouns 1",
+      "Aerospace"
+    ]
   },
   {
     "id": "w022",
     "type": "word",
     "fr": "conducteur",
     "it": "conduttore",
-    "cat": "Électronique / aérospatial",
-    "ex": "Un materiale conduttore."
+    "ex": "Un materiale conduttore.",
+    "categories": [
+      "Basic adjectives 1",
+      "Aerospace"
+    ]
   },
   {
     "id": "w023",
     "type": "word",
     "fr": "faisceau de fils",
     "it": "fascio di cavi",
-    "cat": "Électronique / aérospatial",
-    "ex": "Un fascio di cavi per l’avionica."
+    "ex": "Un fascio di cavi per l’avionica.",
+    "categories": [
+      "Basic nouns 1",
+      "Aerospace"
+    ]
   },
   {
     "id": "w024",
     "type": "word",
     "fr": "câblage",
     "it": "cablaggio",
-    "cat": "Électronique / aérospatial",
-    "ex": "Schema di cablaggio."
+    "ex": "Schema di cablaggio.",
+    "categories": [
+      "Basic nouns 1",
+      "Aerospace"
+    ]
   },
   {
     "id": "w025",
     "type": "word",
     "fr": "blindage",
     "it": "schermatura",
-    "cat": "Électronique / aérospatial",
-    "ex": "Schermatura elettromagnetica."
+    "ex": "Schermatura elettromagnetica.",
+    "categories": [
+      "Basic nouns 1",
+      "Aerospace"
+    ]
   },
   {
     "id": "w026",
     "type": "word",
     "fr": "branche / dérivation",
     "it": "diramazione",
-    "cat": "Électronique / aérospatial",
-    "ex": "Una diramazione del cablaggio."
+    "ex": "Una diramazione del cablaggio.",
+    "categories": [
+      "Basic expressions 1",
+      "Aerospace"
+    ]
   },
   {
     "id": "w027",
     "type": "word",
     "fr": "connecteur",
     "it": "connettore",
-    "cat": "Électronique / aérospatial",
-    "ex": "Collegare il connettore."
+    "ex": "Collegare il connettore.",
+    "categories": [
+      "Basic nouns 1",
+      "Aerospace"
+    ]
   },
   {
     "id": "w028",
     "type": "word",
     "fr": "brochage",
     "it": "disposizione dei pin",
-    "cat": "Électronique / aérospatial",
-    "ex": "Verificare la disposizione dei pin."
+    "ex": "Verificare la disposizione dei pin.",
+    "categories": [
+      "Basic expressions 1",
+      "Aerospace"
+    ]
   },
   {
     "id": "w029",
     "type": "word",
     "fr": "soulagement de traction",
     "it": "fermacavo",
-    "cat": "Électronique / aérospatial",
-    "ex": "Protezione del cavo vicino al connettore."
+    "ex": "Protezione del cavo vicino al connettore.",
+    "categories": [
+      "Basic expressions 1",
+      "Aerospace"
+    ]
   },
   {
     "id": "w030",
     "type": "word",
     "fr": "épissure",
     "it": "giunzione dei fili",
-    "cat": "Électronique / aérospatial",
-    "ex": "Una giunzione tra due fili."
+    "ex": "Una giunzione tra due fili.",
+    "categories": [
+      "Basic nouns 1",
+      "Aerospace"
+    ]
   },
   {
     "id": "w031",
     "type": "word",
     "fr": "sertissage",
     "it": "crimpatura",
-    "cat": "Électronique / aérospatial",
-    "ex": "Controllo della crimpatura."
+    "ex": "Controllo della crimpatura.",
+    "categories": [
+      "Basic nouns 1",
+      "Aerospace"
+    ]
   },
   {
     "id": "w032",
     "type": "word",
     "fr": "soudage",
     "it": "saldatura",
-    "cat": "Électronique / aérospatial",
-    "ex": "Saldatura dei terminali."
+    "ex": "Saldatura dei terminali.",
+    "categories": [
+      "Basic nouns 1",
+      "Aerospace"
+    ]
   },
   {
     "id": "w033",
     "type": "word",
     "fr": "continuité électrique",
     "it": "continuità elettrica",
-    "cat": "Électronique / aérospatial",
-    "ex": "Test di continuità elettrica."
+    "ex": "Test di continuità elettrica.",
+    "categories": [
+      "Basic nouns 1",
+      "Aerospace"
+    ]
   },
   {
     "id": "w034",
     "type": "word",
     "fr": "résistance d’isolement",
     "it": "resistenza d’isolamento",
-    "cat": "Électronique / aérospatial",
-    "ex": "Misurare la resistenza d’isolamento."
+    "ex": "Misurare la resistenza d’isolamento.",
+    "categories": [
+      "Basic nouns 1",
+      "Aerospace"
+    ]
   },
   {
     "id": "w035",
     "type": "word",
     "fr": "court-circuit",
     "it": "cortocircuito",
-    "cat": "Électronique / aérospatial",
-    "ex": "Cercare un cortocircuito."
+    "ex": "Cercare un cortocircuito.",
+    "categories": [
+      "Basic nouns 1",
+      "Aerospace"
+    ]
   },
   {
     "id": "w036",
     "type": "word",
     "fr": "circuit ouvert",
     "it": "circuito aperto",
-    "cat": "Électronique / aérospatial",
-    "ex": "Il circuito è aperto."
+    "ex": "Il circuito è aperto.",
+    "categories": [
+      "Basic nouns 1",
+      "Aerospace"
+    ]
   },
   {
     "id": "w037",
     "type": "word",
     "fr": "masse électrique",
     "it": "massa",
-    "cat": "Électronique / aérospatial",
-    "ex": "Collegamento a massa."
+    "ex": "Collegamento a massa.",
+    "categories": [
+      "Basic nouns 1",
+      "Aerospace"
+    ]
   },
   {
     "id": "w038",
     "type": "word",
     "fr": "schéma de câblage",
     "it": "schema di cablaggio",
-    "cat": "Électronique / aérospatial",
-    "ex": "Leggere lo schema di cablaggio."
+    "ex": "Leggere lo schema di cablaggio.",
+    "categories": [
+      "Basic nouns 1",
+      "Aerospace"
+    ]
   },
   {
     "id": "w039",
     "type": "word",
     "fr": "nomenclature (BOM)",
     "it": "distinta base",
-    "cat": "Électronique / aérospatial",
-    "ex": "Distinta base dei componenti."
+    "ex": "Distinta base dei componenti.",
+    "categories": [
+      "Basic nouns 1",
+      "Aerospace"
+    ]
   },
   {
     "id": "w040",
     "type": "word",
     "fr": "cheminement des câbles",
     "it": "instradamento dei cavi",
-    "cat": "Électronique / aérospatial",
-    "ex": "Pianificare l’instradamento dei cavi."
+    "ex": "Pianificare l’instradamento dei cavi.",
+    "categories": [
+      "Basic nouns 1",
+      "Aerospace"
+    ]
   },
   {
     "id": "w041",
     "type": "word",
     "fr": "rayon de courbure",
     "it": "raggio di curvatura",
-    "cat": "Électronique / aérospatial",
-    "ex": "Rispettare il raggio di curvatura."
+    "ex": "Rispettare il raggio di curvatura.",
+    "categories": [
+      "Basic nouns 1",
+      "Aerospace"
+    ]
   },
   {
     "id": "w042",
     "type": "word",
     "fr": "dégagement",
     "it": "distanza libera",
-    "cat": "Électronique / aérospatial",
-    "ex": "Verificare la distanza libera."
+    "ex": "Verificare la distanza libera.",
+    "categories": [
+      "Basic nouns 1",
+      "Aerospace"
+    ]
   },
   {
     "id": "w043",
     "type": "word",
     "fr": "frottement / abrasion",
     "it": "sfregamento",
-    "cat": "Électronique / aérospatial",
-    "ex": "Proteggere il cavo dallo sfregamento."
+    "ex": "Proteggere il cavo dallo sfregamento.",
+    "categories": [
+      "Basic nouns 1",
+      "Aerospace"
+    ]
   },
   {
     "id": "w044",
     "type": "word",
     "fr": "diaphonie",
     "it": "diafonia",
-    "cat": "Électronique / aérospatial",
-    "ex": "Ridurre la diafonia."
+    "ex": "Ridurre la diafonia.",
+    "categories": [
+      "Basic nouns 1",
+      "Aerospace"
+    ]
   },
   {
     "id": "w045",
     "type": "word",
     "fr": "interferenze elettromagnetiche (EMI)",
     "it": "interferenze elettromagnetiche",
-    "cat": "Électronique / aérospatial",
-    "ex": "Compatibilità elettromagnetica (EMC): compatibilità elettromagnetica."
+    "ex": "Compatibilità elettromagnetica (EMC): compatibilità elettromagnetica.",
+    "categories": [
+      "Basic nouns 1",
+      "Aerospace"
+    ]
   },
   {
     "id": "w046",
     "type": "word",
     "fr": "guaina / rivestimento",
     "it": "guaina",
-    "cat": "Électronique / aérospatial",
-    "ex": "Guaina protettiva."
+    "ex": "Guaina protettiva.",
+    "categories": [
+      "Basic nouns 1",
+      "Aerospace"
+    ]
   },
   {
     "id": "w047",
     "type": "word",
     "fr": "legatura dei cavi",
     "it": "legatura dei cavi",
-    "cat": "Électronique / aérospatial",
-    "ex": "Legatura del fascio di cavi."
+    "ex": "Legatura del fascio di cavi.",
+    "categories": [
+      "Basic nouns 1",
+      "Aerospace"
+    ]
   },
   {
     "id": "w048",
     "type": "word",
     "fr": "tronco principale del cablaggio",
     "it": "tronco principale del cablaggio",
-    "cat": "Électronique / aérospatial",
-    "ex": "Il tronco principale del cablaggio."
+    "ex": "Il tronco principale del cablaggio.",
+    "categories": [
+      "Basic nouns 1",
+      "Aerospace"
+    ]
   },
   {
     "id": "p001",
     "type": "phrase",
     "fr": "J’aimerais faire un stage.",
     "it": "Vorrei fare uno stage.",
-    "cat": "Travail et études",
+    "cat": "Work",
     "ex": "Vorrei + infinitif : vorrei imparare, vorrei lavorare."
   },
   {
@@ -396,7 +529,7 @@
     "type": "phrase",
     "fr": "Par exemple, OHB est similaire à Thales, mais est basée en Allemagne.",
     "it": "Per esempio, OHB è simile a Thales, ma ha sede in Germania.",
-    "cat": "Travail et études",
+    "cat": "Work",
     "ex": "« ha sede in » signifie « avoir son siège en »."
   },
   {
@@ -404,7 +537,7 @@
     "type": "phrase",
     "fr": "J’étudie en France et je parle allemand.",
     "it": "Studio in Francia e parlo tedesco.",
-    "cat": "Pays et lieux",
+    "cat": "Travel",
     "ex": "Studio = j’étudie ; parlo = je parle."
   },
   {
@@ -412,7 +545,7 @@
     "type": "phrase",
     "fr": "J’aimerais faire un stage en électronique.",
     "it": "Vorrei fare uno stage in elettronica.",
-    "cat": "Travail et études",
+    "cat": "Work",
     "ex": "Vorrei fare uno stage + domaine."
   },
   {
@@ -436,7 +569,7 @@
     "type": "phrase",
     "fr": "Cette entreprise est similaire à Thales.",
     "it": "Questa azienda è simile a Thales.",
-    "cat": "Travail et études",
+    "cat": "Work",
     "ex": "Questa azienda = cette entreprise."
   },
   {
@@ -452,7 +585,7 @@
     "type": "phrase",
     "fr": "Je voudrais apprendre et travailler en Allemagne.",
     "it": "Vorrei imparare e lavorare in Germania.",
-    "cat": "Travail et études",
+    "cat": "Work",
     "ex": "Vorrei + infinitif."
   },
   {
@@ -460,7 +593,7 @@
     "type": "phrase",
     "fr": "Par exemple, je voudrais travailler en électronique.",
     "it": "Per esempio, vorrei lavorare in elettronica.",
-    "cat": "Travail et études",
+    "cat": "Work",
     "ex": "Per esempio = par exemple."
   }
 ]
