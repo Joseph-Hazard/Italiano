@@ -1,72 +1,466 @@
 [
   {
-    "id": "v001",
+    "id": "w001",
+    "type": "word",
+    "fr": "un stage",
+    "it": "uno stage",
+    "cat": "Travail et études",
+    "ex": "Vorrei fare uno stage a Milano."
+  },
+  {
+    "id": "w002",
+    "type": "word",
+    "fr": "une entreprise",
+    "it": "un’azienda",
+    "cat": "Travail et études",
+    "ex": "Un’azienda italiana."
+  },
+  {
+    "id": "w003",
+    "type": "word",
+    "fr": "similaire à",
+    "it": "simile a",
+    "cat": "Expressions",
+    "ex": "Essere simile a qualcosa."
+  },
+  {
+    "id": "w004",
+    "type": "word",
+    "fr": "parce que / pourquoi",
+    "it": "perché",
+    "cat": "Mots utiles",
+    "ex": "Perché? = Pourquoi ? · perché = parce que."
+  },
+  {
+    "id": "w005",
+    "type": "word",
+    "fr": "électronique",
+    "it": "elettronica",
+    "cat": "Électronique / aérospatial",
+    "ex": "Studio elettronica."
+  },
+  {
+    "id": "w006",
+    "type": "word",
+    "fr": "Allemagne",
+    "it": "Germania",
+    "cat": "Pays et lieux",
+    "ex": "In Germania."
+  },
+  {
+    "id": "w007",
+    "type": "word",
+    "fr": "France",
+    "it": "Francia",
+    "cat": "Pays et lieux",
+    "ex": "In Francia."
+  },
+  {
+    "id": "w008",
+    "type": "word",
+    "fr": "faire",
+    "it": "fare",
+    "cat": "Verbes",
+    "ex": "Fare uno stage."
+  },
+  {
+    "id": "w009",
+    "type": "word",
+    "fr": "je voudrais",
+    "it": "vorrei",
+    "cat": "Verbes",
+    "ex": "Vorrei + infinitif."
+  },
+  {
+    "id": "w010",
+    "type": "word",
+    "fr": "est / c’est",
+    "it": "è",
+    "cat": "Verbes",
+    "ex": "OHB è un’azienda."
+  },
+  {
+    "id": "w011",
+    "type": "word",
+    "fr": "par exemple",
+    "it": "per esempio",
+    "cat": "Connecteurs",
+    "ex": "Per esempio, …"
+  },
+  {
+    "id": "w012",
+    "type": "word",
+    "fr": "mais",
+    "it": "ma",
+    "cat": "Connecteurs",
+    "ex": "…, ma …"
+  },
+  {
+    "id": "w013",
+    "type": "word",
+    "fr": "aussi",
+    "it": "anche",
+    "cat": "Connecteurs",
+    "ex": "Anche in Germania."
+  },
+  {
+    "id": "w014",
+    "type": "word",
+    "fr": "j’aime étudier l’italien",
+    "it": "mi piace studiare l’italiano",
+    "cat": "Expressions",
+    "ex": "Mi piace + infinitif."
+  },
+  {
+    "id": "w015",
+    "type": "word",
+    "fr": "excuse-moi",
+    "it": "scusami",
+    "cat": "Expressions",
+    "ex": "Forme familière ; « Scusi » est plus formel."
+  },
+  {
+    "id": "w016",
+    "type": "word",
+    "fr": "similaire",
+    "it": "simile",
+    "cat": "Adjectifs",
+    "ex": "Simile a Thales."
+  },
+  {
+    "id": "w017",
+    "type": "word",
+    "fr": "en électronique",
+    "it": "in elettronica",
+    "cat": "Électronique / aérospatial",
+    "ex": "Uno stage in elettronica."
+  },
+  {
+    "id": "w018",
+    "type": "word",
+    "fr": "en Allemagne",
+    "it": "in Germania",
+    "cat": "Pays et lieux",
+    "ex": "Lavorare in Germania."
+  },
+  {
+    "id": "w019",
+    "type": "word",
+    "fr": "en France",
+    "it": "in Francia",
+    "cat": "Pays et lieux",
+    "ex": "Studio in Francia."
+  },
+  {
+    "id": "w020",
+    "type": "word",
+    "fr": "câble",
+    "it": "cavo",
+    "cat": "Électronique / aérospatial",
+    "ex": "Un cavo elettrico."
+  },
+  {
+    "id": "w021",
+    "type": "word",
+    "fr": "fil électrique",
+    "it": "filo elettrico",
+    "cat": "Électronique / aérospatial",
+    "ex": "Un filo elettrico."
+  },
+  {
+    "id": "w022",
+    "type": "word",
+    "fr": "conducteur",
+    "it": "conduttore",
+    "cat": "Électronique / aérospatial",
+    "ex": "Un materiale conduttore."
+  },
+  {
+    "id": "w023",
+    "type": "word",
+    "fr": "faisceau de fils",
+    "it": "fascio di cavi",
+    "cat": "Électronique / aérospatial",
+    "ex": "Un fascio di cavi per l’avionica."
+  },
+  {
+    "id": "w024",
+    "type": "word",
+    "fr": "câblage",
+    "it": "cablaggio",
+    "cat": "Électronique / aérospatial",
+    "ex": "Schema di cablaggio."
+  },
+  {
+    "id": "w025",
+    "type": "word",
+    "fr": "blindage",
+    "it": "schermatura",
+    "cat": "Électronique / aérospatial",
+    "ex": "Schermatura elettromagnetica."
+  },
+  {
+    "id": "w026",
+    "type": "word",
+    "fr": "branche / dérivation",
+    "it": "diramazione",
+    "cat": "Électronique / aérospatial",
+    "ex": "Una diramazione del cablaggio."
+  },
+  {
+    "id": "w027",
+    "type": "word",
+    "fr": "connecteur",
+    "it": "connettore",
+    "cat": "Électronique / aérospatial",
+    "ex": "Collegare il connettore."
+  },
+  {
+    "id": "w028",
+    "type": "word",
+    "fr": "brochage",
+    "it": "disposizione dei pin",
+    "cat": "Électronique / aérospatial",
+    "ex": "Verificare la disposizione dei pin."
+  },
+  {
+    "id": "w029",
+    "type": "word",
+    "fr": "soulagement de traction",
+    "it": "fermacavo",
+    "cat": "Électronique / aérospatial",
+    "ex": "Protezione del cavo vicino al connettore."
+  },
+  {
+    "id": "w030",
+    "type": "word",
+    "fr": "épissure",
+    "it": "giunzione dei fili",
+    "cat": "Électronique / aérospatial",
+    "ex": "Una giunzione tra due fili."
+  },
+  {
+    "id": "w031",
+    "type": "word",
+    "fr": "sertissage",
+    "it": "crimpatura",
+    "cat": "Électronique / aérospatial",
+    "ex": "Controllo della crimpatura."
+  },
+  {
+    "id": "w032",
+    "type": "word",
+    "fr": "soudage",
+    "it": "saldatura",
+    "cat": "Électronique / aérospatial",
+    "ex": "Saldatura dei terminali."
+  },
+  {
+    "id": "w033",
+    "type": "word",
+    "fr": "continuité électrique",
+    "it": "continuità elettrica",
+    "cat": "Électronique / aérospatial",
+    "ex": "Test di continuità elettrica."
+  },
+  {
+    "id": "w034",
+    "type": "word",
+    "fr": "résistance d’isolement",
+    "it": "resistenza d’isolamento",
+    "cat": "Électronique / aérospatial",
+    "ex": "Misurare la resistenza d’isolamento."
+  },
+  {
+    "id": "w035",
+    "type": "word",
+    "fr": "court-circuit",
+    "it": "cortocircuito",
+    "cat": "Électronique / aérospatial",
+    "ex": "Cercare un cortocircuito."
+  },
+  {
+    "id": "w036",
+    "type": "word",
+    "fr": "circuit ouvert",
+    "it": "circuito aperto",
+    "cat": "Électronique / aérospatial",
+    "ex": "Il circuito è aperto."
+  },
+  {
+    "id": "w037",
+    "type": "word",
+    "fr": "masse électrique",
+    "it": "massa",
+    "cat": "Électronique / aérospatial",
+    "ex": "Collegamento a massa."
+  },
+  {
+    "id": "w038",
+    "type": "word",
+    "fr": "schéma de câblage",
+    "it": "schema di cablaggio",
+    "cat": "Électronique / aérospatial",
+    "ex": "Leggere lo schema di cablaggio."
+  },
+  {
+    "id": "w039",
+    "type": "word",
+    "fr": "nomenclature (BOM)",
+    "it": "distinta base",
+    "cat": "Électronique / aérospatial",
+    "ex": "Distinta base dei componenti."
+  },
+  {
+    "id": "w040",
+    "type": "word",
+    "fr": "cheminement des câbles",
+    "it": "instradamento dei cavi",
+    "cat": "Électronique / aérospatial",
+    "ex": "Pianificare l’instradamento dei cavi."
+  },
+  {
+    "id": "w041",
+    "type": "word",
+    "fr": "rayon de courbure",
+    "it": "raggio di curvatura",
+    "cat": "Électronique / aérospatial",
+    "ex": "Rispettare il raggio di curvatura."
+  },
+  {
+    "id": "w042",
+    "type": "word",
+    "fr": "dégagement",
+    "it": "distanza libera",
+    "cat": "Électronique / aérospatial",
+    "ex": "Verificare la distanza libera."
+  },
+  {
+    "id": "w043",
+    "type": "word",
+    "fr": "frottement / abrasion",
+    "it": "sfregamento",
+    "cat": "Électronique / aérospatial",
+    "ex": "Proteggere il cavo dallo sfregamento."
+  },
+  {
+    "id": "w044",
+    "type": "word",
+    "fr": "diaphonie",
+    "it": "diafonia",
+    "cat": "Électronique / aérospatial",
+    "ex": "Ridurre la diafonia."
+  },
+  {
+    "id": "w045",
+    "type": "word",
+    "fr": "interferenze elettromagnetiche (EMI)",
+    "it": "interferenze elettromagnetiche",
+    "cat": "Électronique / aérospatial",
+    "ex": "Compatibilità elettromagnetica (EMC): compatibilità elettromagnetica."
+  },
+  {
+    "id": "w046",
+    "type": "word",
+    "fr": "guaina / rivestimento",
+    "it": "guaina",
+    "cat": "Électronique / aérospatial",
+    "ex": "Guaina protettiva."
+  },
+  {
+    "id": "w047",
+    "type": "word",
+    "fr": "legatura dei cavi",
+    "it": "legatura dei cavi",
+    "cat": "Électronique / aérospatial",
+    "ex": "Legatura del fascio di cavi."
+  },
+  {
+    "id": "w048",
+    "type": "word",
+    "fr": "tronco principale del cablaggio",
+    "it": "tronco principale del cablaggio",
+    "cat": "Électronique / aérospatial",
+    "ex": "Il tronco principale del cablaggio."
+  },
+  {
+    "id": "p001",
+    "type": "phrase",
     "fr": "J’aimerais faire un stage.",
     "it": "Vorrei fare uno stage.",
     "cat": "Travail et études",
     "ex": "Vorrei + infinitif : vorrei imparare, vorrei lavorare."
   },
   {
-    "id": "v002",
-    "fr": "une entreprise",
-    "it": "un’azienda",
+    "id": "p002",
+    "type": "phrase",
+    "fr": "Par exemple, OHB est similaire à Thales, mais est basée en Allemagne.",
+    "it": "Per esempio, OHB è simile a Thales, ma ha sede in Germania.",
     "cat": "Travail et études",
-    "ex": "Leonardo è un’azienda italiana."
+    "ex": "« ha sede in » signifie « avoir son siège en »."
   },
   {
-    "id": "v003",
-    "fr": "similaire à",
-    "it": "simile a",
-    "cat": "Expressions",
-    "ex": "La parola è simile a quella francese."
+    "id": "p003",
+    "type": "phrase",
+    "fr": "J’étudie en France et je parle allemand.",
+    "it": "Studio in Francia e parlo tedesco.",
+    "cat": "Pays et lieux",
+    "ex": "Studio = j’étudie ; parlo = je parle."
   },
   {
-    "id": "v004",
-    "fr": "parce que",
-    "it": "perché",
-    "cat": "Expressions",
-    "ex": "Mi interessa perché…"
+    "id": "p004",
+    "type": "phrase",
+    "fr": "J’aimerais faire un stage en électronique.",
+    "it": "Vorrei fare uno stage in elettronica.",
+    "cat": "Travail et études",
+    "ex": "Vorrei fare uno stage + domaine."
   },
   {
-    "id": "v005",
-    "fr": "en électronique",
-    "it": "in elettronica",
-    "cat": "Électronique / aérospatial",
-    "ex": "Vorrei fare uno stage in elettronica."
-  },
-  {
-    "id": "v006",
-    "fr": "en Allemagne",
-    "it": "in Germania",
-    "cat": "Voyage",
-    "ex": "Studio in Francia e parlo tedesco."
-  },
-  {
-    "id": "v007",
+    "id": "p005",
+    "type": "phrase",
     "fr": "J’aime étudier l’italien.",
     "it": "Mi piace studiare l’italiano.",
     "cat": "Expressions",
     "ex": "Mi piace + infinitif."
   },
   {
-    "id": "v008",
-    "fr": "Je m’excuse / excuse-moi.",
+    "id": "p006",
+    "type": "phrase",
+    "fr": "Excuse-moi.",
     "it": "Scusami.",
     "cat": "Expressions",
-    "ex": "Forme familière ; Scusi est plus formel."
+    "ex": "Familier ; « Scusi » est plus formel."
   },
   {
-    "id": "v009",
-    "fr": "faire",
-    "it": "fare",
-    "cat": "Verbes",
-    "ex": "Vorrei fare uno stage."
+    "id": "p007",
+    "type": "phrase",
+    "fr": "Cette entreprise est similaire à Thales.",
+    "it": "Questa azienda è simile a Thales.",
+    "cat": "Travail et études",
+    "ex": "Questa azienda = cette entreprise."
   },
   {
-    "id": "v010",
-    "fr": "Je voudrais",
-    "it": "Vorrei",
-    "cat": "Grammaire",
-    "ex": "Conditionnel de volere."
+    "id": "p008",
+    "type": "phrase",
+    "fr": "Pourquoi ? Parce que…",
+    "it": "Perché? Perché…",
+    "cat": "Expressions",
+    "ex": "Le même mot peut signifier « pourquoi » ou « parce que » selon le contexte."
+  },
+  {
+    "id": "p009",
+    "type": "phrase",
+    "fr": "Je voudrais apprendre et travailler en Allemagne.",
+    "it": "Vorrei imparare e lavorare in Germania.",
+    "cat": "Travail et études",
+    "ex": "Vorrei + infinitif."
+  },
+  {
+    "id": "p010",
+    "type": "phrase",
+    "fr": "Par exemple, je voudrais travailler en électronique.",
+    "it": "Per esempio, vorrei lavorare in elettronica.",
+    "cat": "Travail et études",
+    "ex": "Per esempio = par exemple."
   }
 ]
