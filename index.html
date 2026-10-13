@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#111114">
+<title>Italiano — mon vocabulaire</title>
+<style>
+:root{color-scheme:dark;--bg:#111114;--panel:#1b1b21;--panel2:#23232b;--text:#f4f4f5;--muted:#aaaab5;--accent:#ff555d;--border:#373740;--good:#7bd6a3}
+*{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at top,#26202a 0,#111114 55%);color:var(--text);font:16px/1.5 system-ui,-apple-system,Segoe UI,sans-serif}
+main{max-width:980px;margin:0 auto;padding:32px 18px 60px}header{margin-bottom:24px}h1{font-size:clamp(2rem,5vw,3rem);line-height:1.05;margin:0 0 10px;letter-spacing:-.04em}h1 span{color:var(--accent)}p{margin:.3rem 0;color:var(--muted)}.layout{display:grid;grid-template-columns:1fr 1fr;gap:16px}.panel{background:rgba(27,27,33,.94);border:1px solid var(--border);border-radius:18px;padding:20px;min-width:0}h2{font-size:1.15rem;margin:0 0 14px}label{display:block;font-size:.88rem;color:var(--muted);margin:10px 0 5px}input,select,textarea{width:100%;background:#111116;color:var(--text);border:1px solid var(--border);border-radius:10px;padding:11px 12px;font:inherit}textarea{resize:vertical;min-height:68px}button{border:1px solid var(--border);border-radius:11px;padding:10px 14px;background:var(--panel2);color:var(--text);font:inherit;font-weight:650;cursor:pointer}button:hover{border-color:var(--accent)}button.primary{background:var(--accent);border-color:var(--accent);color:#190d0f}button:disabled{opacity:.45;cursor:not-allowed}.actions{display:flex;flex-wrap:wrap;gap:8px;margin-top:13px}.stats{display:flex;gap:10px;flex-wrap:wrap;margin:18px 0}.stat{background:var(--panel);border:1px solid var(--border);border-radius:12px;padding:10px 14px;flex:1;min-width:110px}.stat strong{display:block;font-size:1.4rem}.stat small{color:var(--muted)}.tabs{display:flex;gap:8px;flex-wrap:wrap;margin:0 0 16px}.tabs button.active{border-color:var(--accent);box-shadow:inset 0 -2px var(--accent)}.study-card{min-height:230px;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:22px;background:#131318;border:1px solid var(--border);border-radius:15px;margin:10px 0}.study-card .hint{font-size:.85rem;color:var(--muted);margin-bottom:10px}.study-card .word{font-size:clamp(1.7rem,4vw,2.4rem);font-weight:750;letter-spacing:-.03em;overflow-wrap:anywhere}.study-card .answer{font-size:1.2rem;color:var(--good);margin-top:14px;overflow-wrap:anywhere}.study-card .example{font-size:.95rem;color:var(--muted);margin-top:9px;max-width:38rem}.toolbar{display:flex;gap:10px;align-items:center;justify-content:space-between;flex-wrap:wrap}.list{margin-top:14px;display:grid;gap:8px}.item{display:flex;justify-content:space-between;gap:12px;align-items:start;padding:12px;border:1px solid var(--border);border-radius:11px;background:#15151a}.item strong{display:block;overflow-wrap:anywhere}.item small{color:var(--muted);display:block}.item button{padding:5px 9px}.empty{padding:22px;text-align:center;color:var(--muted)}.notice{font-size:.88rem;color:var(--muted);margin-top:12px}.hidden{display:none!important}.status{font-size:.85rem;color:var(--muted);margin-top:8px}@media(max-width:720px){main{padding-top:22px}.panel{padding:16px}}
+</style>
+</head>
+<body>
+<main>
+<header>
+  <h1>Il mio <span>italiano.</span></h1>
+  <p>Ton vocabulaire personnel — ajoute des mots, révise-les et entraîne-toi à les retrouver.</p>
+  <div class="stats">
+    <div class="stat"><strong id="count">0</strong><small>cartes enregistrées</small></div>
+    <div class="stat"><strong id="due">0</strong><small>à réviser aujourd’hui</small></div>
+    <div class="stat"><strong id="known">0</strong><small>mots maîtrisés</small></div>
+  </div>
+  <p id="syncStatus" class="status">Chargement du vocabulaire partagé…</p>
+</header>
+<div class="tabs">
+  <button class="active" data-tab="study">Réviser</button>
+  <button data-tab="add">Ajouter un mot</button>
+  <button data-tab="list">Mon vocabulaire</button>
+</div>
+<section id="study" class="panel">
+  <div class="toolbar"><h2>Session de révision</h2><select id="direction" aria-label="Sens de la révision" style="max-width:220px"><option value="fr-it">Français → italien</option><option value="it-fr">Italien → français</option></select></div>
+  <div id="studyCard" class="study-card"><div class="hint">Vocabulaire</div><div class="word">Andiamo!</div><div class="example">Chargement des cartes…</div></div>
+  <div class="toolbar"><span id="progress" class="notice">Chargement…</span><button id="reveal" class="primary">Afficher la réponse</button></div>
+  <div class="actions" id="gradeActions"><button data-grade="again" disabled>À revoir</button><button data-grade="hard" disabled>Difficile</button><button data-grade="good" disabled>Je savais</button></div>
+</section>
+<section id="add" class="panel hidden">
+  <h2>Ajouter une carte</h2>
+  <form id="addForm">
+    <label for="fr">Français *</label><input id="fr" required placeholder="ex. J’aimerais…" maxlength="180">
+    <label for="it">Italien *</label><input id="it" required placeholder="ex. Vorrei…" maxlength="180">
+    <label for="category">Thème</label><select id="category"><option>Expressions</option><option>Verbes</option><option>Voyage</option><option>Travail et études</option><option>Électronique / aérospatial</option><option>Grammaire</option><option>Autre</option></select>
+    <label for="example">Exemple ou remarque (facultatif)</label><textarea id="example" placeholder="ex. Vorrei fare uno stage a Milano."></textarea>
+    <div class="actions"><button class="primary" type="submit">Ajouter la carte</button><button type="reset">Effacer</button></div>
+  </form>
+  <p class="notice">Les cartes ajoutées ici sont conservées dans ce navigateur. Pour les partager entre appareils, demande-moi de les ajouter au fichier vocabulary.json du dépôt GitHub.</p>
+</section>
+<section id="list" class="panel hidden">
+  <div class="toolbar"><h2>Mon vocabulaire</h2><input id="search" placeholder="Rechercher…" style="max-width:250px"></div>
+  <div class="actions"><button id="export">Exporter une sauvegarde</button><button id="importBtn">Importer une sauvegarde</button><input id="importFile" type="file" accept="application/json,.json" class="hidden"></div>
+  <div id="wordList" class="list"></div>
+</section>
+</main>
+<script>
+const KEY='italiano-vocab-v2';
+let cards=[],queue=[],idx=0,revealed=false,current=null;
+const $=id=>document.getElementById(id);
+const escapeHtml=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+function save(){localStorage.setItem(KEY,JSON.stringify(cards));renderStats();renderList();}
+function renderStats(){$('count').textContent=cards.length;$('due').textContent=cards.filter(c=>(c.due||0)<=Date.now()).length;$('known').textContent=cards.filter(c=>c.known).length;}
+function setTab(tab){document.querySelectorAll('[data-tab]').forEach(b=>b.classList.toggle('active',b.dataset.tab===tab));['study','add','list'].forEach(id=>$(id).classList.toggle('hidden',id!==tab));if(tab==='list')renderList();}
+document.querySelectorAll('[data-tab]').forEach(b=>b.addEventListener('click',()=>setTab(b.dataset.tab)));
+function start(){queue=cards.filter(c=>(c.due||0)<=Date.now());if(!queue.length)queue=[...cards];queue.sort(()=>Math.random()-.5);idx=0;showCard();}
+function showCard(){revealed=false;current=queue[idx];if(!current){$('studyCard').innerHTML='<div class="word">Bravo !</div><div class="example">Session terminée. Tu peux recommencer ou ajouter des cartes.</div>';$('progress').textContent='Session terminée.';$('reveal').textContent='Recommencer';document.querySelectorAll('[data-grade]').forEach(b=>b.disabled=true);return;}
+const frFirst=$('direction').value==='fr-it';$('studyCard').innerHTML='<div class="hint">'+escapeHtml(current.cat||'Vocabulaire')+'</div><div class="word">'+escapeHtml(frFirst?current.fr:current.it)+'</div><div id="answer" class="answer hidden">'+escapeHtml(frFirst?current.it:current.fr)+'</div><div class="example">'+escapeHtml(current.ex||'')+'</div>';
+$('progress').textContent='Carte '+(idx+1)+' sur '+queue.length;$('reveal').textContent='Afficher la réponse';document.querySelectorAll('[data-grade]').forEach(b=>b.disabled=true);}
+function reveal(){if(!current){start();return;}if(!revealed){revealed=true;$('answer').classList.remove('hidden');document.querySelectorAll('[data-grade]').forEach(b=>b.disabled=false);$('reveal').textContent='Réponse affichée';}}
+$('reveal').addEventListener('click',reveal);$('direction').addEventListener('change',showCard);
+document.querySelectorAll('[data-grade]').forEach(b=>b.addEventListener('click',()=>{if(!current||!revealed)return;const now=Date.now();if(b.dataset.grade==='again'){current.due=now;current.interval=0;current.known=false;}else if(b.dataset.grade==='hard'){current.interval=Math.max(1,(current.interval||0)+1);current.due=now+current.interval*12*60*60*1000;current.known=false;}else{current.interval=Math.max(1,(current.interval||0)===0?1:Math.round(current.interval*2));current.due=now+current.interval*24*60*60*1000;current.known=current.interval>=3;}save();idx++;showCard();}));
+$('addForm').addEventListener('submit',e=>{e.preventDefault();cards.push({id:'local-'+Date.now(),fr:$('fr').value.trim(),it:$('it').value.trim(),cat:$('category').value,ex:$('example').value.trim(),due:0,interval:0,known:false});save();e.target.reset();setTab('study');start();});
+function renderList(){const q=($('search').value||'').toLowerCase();const shown=cards.filter(c=>(c.fr+' '+c.it+' '+c.cat+' '+c.ex).toLowerCase().includes(q));$('wordList').innerHTML=shown.length?shown.map(c=>'<div class="item"><div><strong>'+escapeHtml(c.fr)+'</strong><small>'+escapeHtml(c.it)+' · '+escapeHtml(c.cat||'Autre')+'</small>'+(c.ex?'<small>'+escapeHtml(c.ex)+'</small>':'')+'</div><button data-delete="'+escapeHtml(c.id)+'" aria-label="Supprimer cette carte">Supprimer</button></div>').join(''):'<div class="empty">Aucun mot trouvé.</div>';document.querySelectorAll('[data-delete]').forEach(b=>b.addEventListener('click',()=>{cards=cards.filter(c=>String(c.id)!==b.dataset.delete);save();renderList();}));}
+$('search').addEventListener('input',renderList);
+$('export').addEventListener('click',()=>{const blob=new Blob([JSON.stringify(cards,null,2)],{type:'application/json'});const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='mon-vocabulaire-italien.json';a.click();URL.revokeObjectURL(a.href);});
+$('importBtn').addEventListener('click',()=>$('importFile').click());
+$('importFile').addEventListener('change',async e=>{const file=e.target.files[0];if(!file)return;try{const data=JSON.parse(await file.text());if(!Array.isArray(data)||!data.every(c=>c.fr&&c.it))throw new Error();cards=data;save();renderList();alert('Sauvegarde importée.');}catch(err){alert('Fichier invalide. Choisis une sauvegarde JSON exportée depuis ce site.');}e.target.value='';});
+async function init(){let remote=[];try{const res=await fetch('./vocabulary.json',{cache:'no-store'});if(!res.ok)throw new Error('HTTP '+res.status);remote=await res.json();if(!Array.isArray(remote))throw new Error('Format JSON invalide');}catch(e){$('syncStatus').textContent='Vocabulaire partagé indisponible : ouverture avec les cartes locales.';}
+let saved=[];try{saved=JSON.parse(localStorage.getItem(KEY)||'[]');if(!Array.isArray(saved))saved=[];}catch(e){}
+const byId=new Map();remote.forEach((c,i)=>{const card={due:0,interval:0,known:false,...c,id:c.id||'shared-'+i};byId.set(String(card.id),card);});saved.forEach(c=>byId.set(String(c.id),{...(byId.get(String(c.id))||{}),...c}));cards=[...byId.values()];
+if(remote.length)$('syncStatus').textContent='Vocabulaire partagé chargé depuis GitHub · '+remote.length+' cartes de base. Les ajouts locaux restent sur cet appareil.';
+renderStats();renderList();start();}
+init();
+</script>
+</body>
+</html>
