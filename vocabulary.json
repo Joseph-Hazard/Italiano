@@ -595,5 +595,763 @@
     "it": "Per esempio, vorrei lavorare in elettronica.",
     "cat": "Work",
     "ex": "Per esempio = par exemple."
+  },
+  {
+    "id": "w049",
+    "type": "word",
+    "fr": "jour / aujourd'hui",
+    "it": "oggi",
+    "ex": "Oggi ho lezione.",
+    "categories": [
+      "Basic expressions 1"
+    ]
+  },
+  {
+    "id": "w050",
+    "type": "word",
+    "fr": "hier",
+    "it": "ieri",
+    "ex": "Ieri ho studiato italiano.",
+    "categories": [
+      "Basic expressions 1"
+    ]
+  },
+  {
+    "id": "w051",
+    "type": "word",
+    "fr": "demain",
+    "it": "domani",
+    "ex": "Domani lavoro.",
+    "categories": [
+      "Basic expressions 1"
+    ]
+  },
+  {
+    "id": "w052",
+    "type": "word",
+    "fr": "cette nuit",
+    "it": "stanotte",
+    "ex": "Voglio dormire otto ore stanotte.",
+    "categories": [
+      "Basic expressions 1"
+    ]
+  },
+  {
+    "id": "w053",
+    "type": "word",
+    "fr": "il y a une semaine",
+    "it": "una settimana fa",
+    "ex": "Una settimana fa.",
+    "categories": [
+      "Basic expressions 1"
+    ]
+  },
+  {
+    "id": "w054",
+    "type": "word",
+    "fr": "il y a deux semaines",
+    "it": "due settimane fa",
+    "ex": "Due settimane fa ho cantato.",
+    "categories": [
+      "Basic expressions 1"
+    ]
+  },
+  {
+    "id": "w055",
+    "type": "word",
+    "fr": "il y a trois semaines",
+    "it": "tre settimane fa",
+    "ex": "Tre settimane fa sono arrivato in ritardo.",
+    "categories": [
+      "Basic expressions 1"
+    ]
+  },
+  {
+    "id": "w056",
+    "type": "word",
+    "fr": "dans une heure",
+    "it": "tra un'ora",
+    "ex": "Ci vediamo tra un'ora.",
+    "categories": [
+      "Basic expressions 1"
+    ]
+  },
+  {
+    "id": "w057",
+    "type": "word",
+    "fr": "pendant",
+    "it": "durante",
+    "ex": "Durante la lezione.",
+    "categories": [
+      "Basic expressions 1"
+    ]
+  },
+  {
+    "id": "w058",
+    "type": "word",
+    "fr": "en retard",
+    "it": "in ritardo",
+    "ex": "Sono arrivato in ritardo.",
+    "categories": [
+      "Basic expressions 1"
+    ]
+  },
+  {
+    "id": "w059",
+    "type": "word",
+    "fr": "peut-être",
+    "it": "forse",
+    "ex": "Forse ho un autografo.",
+    "categories": [
+      "Basic expressions 1"
+    ]
+  },
+  {
+    "id": "w060",
+    "type": "word",
+    "fr": "jamais (dans « ne… jamais »)",
+    "it": "mai",
+    "ex": "Non ho mai visitato la Corea del Sud.",
+    "categories": [
+      "Basic expressions 1"
+    ]
+  },
+  {
+    "id": "w061",
+    "type": "word",
+    "fr": "je sais",
+    "it": "so",
+    "ex": "Non so.",
+    "categories": [
+      "Basic verbs 1"
+    ]
+  },
+  {
+    "id": "w062",
+    "type": "word",
+    "fr": "je fais",
+    "it": "faccio",
+    "ex": "Che cosa faccio oggi?",
+    "categories": [
+      "Basic verbs 1"
+    ]
+  },
+  {
+    "id": "w063",
+    "type": "word",
+    "fr": "je vais",
+    "it": "vado",
+    "ex": "Vado in Corea del Sud.",
+    "categories": [
+      "Basic verbs 1"
+    ]
+  },
+  {
+    "id": "w064",
+    "type": "word",
+    "fr": "je parle",
+    "it": "parlo",
+    "ex": "Parlo tedesco.",
+    "categories": [
+      "Basic verbs 1"
+    ]
+  },
+  {
+    "id": "w065",
+    "type": "word",
+    "fr": "je connais",
+    "it": "conosco",
+    "ex": "Conosco parecchi giocatori.",
+    "categories": [
+      "Basic verbs 1"
+    ]
+  },
+  {
+    "id": "w066",
+    "type": "word",
+    "fr": "je chante",
+    "it": "canto",
+    "ex": "Canto una canzone.",
+    "categories": [
+      "Basic verbs 1"
+    ]
+  },
+  {
+    "id": "w067",
+    "type": "word",
+    "fr": "je voyage",
+    "it": "viaggio",
+    "ex": "Mi piace viaggiare.",
+    "categories": [
+      "Basic verbs 1"
+    ]
+  },
+  {
+    "id": "w068",
+    "type": "word",
+    "fr": "je travaille",
+    "it": "lavoro",
+    "ex": "Vorrei lavorare in Germania.",
+    "categories": [
+      "Basic verbs 1"
+    ]
+  },
+  {
+    "id": "w069",
+    "type": "word",
+    "fr": "je dors",
+    "it": "dormo",
+    "ex": "Dormo otto ore.",
+    "categories": [
+      "Basic verbs 1"
+    ]
+  },
+  {
+    "id": "w070",
+    "type": "word",
+    "fr": "je suis arrivé",
+    "it": "sono arrivato",
+    "ex": "Sono arrivato in ritardo.",
+    "categories": [
+      "Basic verbs 1"
+    ]
+  },
+  {
+    "id": "w071",
+    "type": "word",
+    "fr": "j'ai chanté",
+    "it": "ho cantato",
+    "ex": "Ho cantato Bella Ciao.",
+    "categories": [
+      "Basic verbs 1"
+    ]
+  },
+  {
+    "id": "w073",
+    "type": "word",
+    "fr": "je préfère",
+    "it": "preferisco",
+    "ex": "Preferisco il francese.",
+    "categories": [
+      "Basic verbs 1"
+    ]
+  },
+  {
+    "id": "w074",
+    "type": "word",
+    "fr": "j'aime (singulier)",
+    "it": "mi piace",
+    "ex": "Mi piace viaggiare.",
+    "categories": [
+      "Basic expressions 1"
+    ]
+  },
+  {
+    "id": "w075",
+    "type": "word",
+    "fr": "j'aime (pluriel)",
+    "it": "mi piacciono",
+    "ex": "Mi piacciono gli e-sport.",
+    "categories": [
+      "Basic expressions 1"
+    ]
+  },
+  {
+    "id": "w078",
+    "type": "word",
+    "fr": "oui, bien sûr",
+    "it": "sì, certo",
+    "ex": "Sì, certo!",
+    "categories": [
+      "Basic expressions 1"
+    ]
+  },
+  {
+    "id": "w079",
+    "type": "word",
+    "fr": "tu te souviens ?",
+    "it": "ti ricordi?",
+    "ex": "Ti ricordi?",
+    "categories": [
+      "Basic expressions 1"
+    ]
+  },
+  {
+    "id": "w080",
+    "type": "word",
+    "fr": "je ne sais pas",
+    "it": "non so",
+    "ex": "Non so cosa faremo oggi.",
+    "categories": [
+      "Basic expressions 1"
+    ]
+  },
+  {
+    "id": "w081",
+    "type": "word",
+    "fr": "une leçon / un cours",
+    "it": "la lezione",
+    "ex": "Ho lezione oggi.",
+    "categories": [
+      "Basic nouns 1"
+    ]
+  },
+  {
+    "id": "w082",
+    "type": "word",
+    "fr": "une chanson",
+    "it": "la canzone",
+    "ex": "Bella Ciao è una canzone.",
+    "categories": [
+      "Basic nouns 1"
+    ]
+  },
+  {
+    "id": "w083",
+    "type": "word",
+    "fr": "la nuit",
+    "it": "la notte",
+    "ex": "Buona notte!",
+    "categories": [
+      "Basic nouns 1"
+    ]
+  },
+  {
+    "id": "w084",
+    "type": "word",
+    "fr": "un oignon",
+    "it": "la cipolla",
+    "ex": "La cipolla è un ingrediente.",
+    "categories": [
+      "Basic nouns 1",
+      "Food"
+    ]
+  },
+  {
+    "id": "w085",
+    "type": "word",
+    "fr": "une omelette",
+    "it": "la frittata",
+    "ex": "Vorrei una frittata.",
+    "categories": [
+      "Basic nouns 1",
+      "Food"
+    ]
+  },
+  {
+    "id": "w086",
+    "type": "word",
+    "fr": "un gâteau",
+    "it": "la torta",
+    "ex": "Vorrei fare una torta.",
+    "categories": [
+      "Basic nouns 1",
+      "Food"
+    ]
+  },
+  {
+    "id": "w087",
+    "type": "word",
+    "fr": "une entreprise",
+    "it": "un'azienda",
+    "ex": "Vorrei lavorare in un'azienda.",
+    "categories": [
+      "Basic nouns 1",
+      "Work"
+    ]
+  },
+  {
+    "id": "w088",
+    "type": "word",
+    "fr": "une équipe",
+    "it": "la squadra",
+    "ex": "La squadra T1.",
+    "categories": [
+      "Basic nouns 1"
+    ]
+  },
+  {
+    "id": "w089",
+    "type": "word",
+    "fr": "un joueur",
+    "it": "un giocatore",
+    "ex": "Conosco un giocatore di T1.",
+    "categories": [
+      "Basic nouns 1"
+    ]
+  },
+  {
+    "id": "w090",
+    "type": "word",
+    "fr": "un autographe",
+    "it": "un autografo",
+    "ex": "Forse ho un autografo di Faker.",
+    "categories": [
+      "Basic nouns 1"
+    ]
+  },
+  {
+    "id": "w091",
+    "type": "word",
+    "fr": "un match / une partie",
+    "it": "una partita",
+    "ex": "Assistere a una partita di T1.",
+    "categories": [
+      "Basic nouns 1"
+    ]
+  },
+  {
+    "id": "w092",
+    "type": "word",
+    "fr": "les e-sports",
+    "it": "gli e-sport",
+    "ex": "Mi piacciono gli e-sport.",
+    "categories": [
+      "Basic nouns 1"
+    ]
+  },
+  {
+    "id": "w093",
+    "type": "word",
+    "fr": "la Corée du Sud",
+    "it": "la Corea del Sud",
+    "ex": "Vorrei visitare la Corea del Sud.",
+    "categories": [
+      "Basic nouns 1",
+      "Travel"
+    ]
+  },
+  {
+    "id": "w094",
+    "type": "word",
+    "fr": "l'anglais",
+    "it": "l'inglese",
+    "ex": "Parlo inglese.",
+    "categories": [
+      "Basic nouns 1"
+    ]
+  },
+  {
+    "id": "w095",
+    "type": "word",
+    "fr": "le français",
+    "it": "il francese",
+    "ex": "Preferisco il francese.",
+    "categories": [
+      "Basic nouns 1"
+    ]
+  },
+  {
+    "id": "w096",
+    "type": "word",
+    "fr": "l'allemand",
+    "it": "il tedesco",
+    "ex": "Parlo tedesco.",
+    "categories": [
+      "Basic nouns 1"
+    ]
+  },
+  {
+    "id": "w097",
+    "type": "word",
+    "fr": "le chinois",
+    "it": "il cinese",
+    "ex": "Vorrei imparare il cinese.",
+    "categories": [
+      "Basic nouns 1"
+    ]
+  },
+  {
+    "id": "w098",
+    "type": "word",
+    "fr": "fluide",
+    "it": "fluido",
+    "ex": "Il francese è fluido.",
+    "categories": [
+      "Basic adjectives 1"
+    ]
+  },
+  {
+    "id": "w099",
+    "type": "word",
+    "fr": "chaleureux / chaud",
+    "it": "caldo",
+    "ex": "Il francese è caldo.",
+    "categories": [
+      "Basic adjectives 1"
+    ]
+  },
+  {
+    "id": "w100",
+    "type": "word",
+    "fr": "important",
+    "it": "importante",
+    "ex": "L'elettronica è importante.",
+    "categories": [
+      "Basic adjectives 1"
+    ]
+  },
+  {
+    "id": "w101",
+    "type": "word",
+    "fr": "beaucoup / plusieurs",
+    "it": "parecchi",
+    "ex": "Conosco parecchi giocatori.",
+    "categories": [
+      "Basic adjectives 1"
+    ]
+  },
+  {
+    "id": "w102",
+    "type": "word",
+    "fr": "uniquement",
+    "it": "unicamente",
+    "ex": "Vado in Corea del Sud unicamente per T1.",
+    "categories": [
+      "Basic expressions 1"
+    ]
+  },
+  {
+    "id": "w103",
+    "type": "word",
+    "fr": "en particulier",
+    "it": "in particolare",
+    "ex": "In particolare la squadra T1.",
+    "categories": [
+      "Basic expressions 1"
+    ]
+  },
+  {
+    "id": "w104",
+    "type": "word",
+    "fr": "visiter",
+    "it": "visitare",
+    "ex": "Vorrei visitare la Corea del Sud.",
+    "categories": [
+      "Basic verbs 1"
+    ]
+  },
+  {
+    "id": "w105",
+    "type": "word",
+    "fr": "assister à",
+    "it": "assistere a",
+    "ex": "Assistere a una partita.",
+    "categories": [
+      "Basic verbs 1"
+    ]
+  },
+  {
+    "id": "w106",
+    "type": "word",
+    "fr": "apprendre",
+    "it": "imparare",
+    "ex": "Vorrei imparare il cinese.",
+    "categories": [
+      "Basic verbs 1"
+    ]
+  },
+  {
+    "id": "w107",
+    "type": "word",
+    "fr": "choisir",
+    "it": "scegliere",
+    "ex": "Quale paese sceglieresti?",
+    "categories": [
+      "Basic verbs 1"
+    ]
+  },
+  {
+    "id": "w108",
+    "type": "word",
+    "fr": "faire (infinitif)",
+    "it": "fare",
+    "ex": "Vorrei fare una torta.",
+    "categories": [
+      "Basic verbs 1"
+    ]
+  },
+  {
+    "id": "w109",
+    "type": "word",
+    "fr": "être (il/elle est)",
+    "it": "è",
+    "ex": "L'elettronica è importante.",
+    "categories": [
+      "Basic verbs 1"
+    ]
+  },
+  {
+    "id": "w110",
+    "type": "word",
+    "fr": "il y a",
+    "it": "ci sono",
+    "ex": "In Germania ci sono molte startup.",
+    "categories": [
+      "Basic expressions 1"
+    ]
+  },
+  {
+    "id": "w111",
+    "type": "word",
+    "fr": "une startup",
+    "it": "una startup",
+    "ex": "In Germania ci sono molte startup.",
+    "categories": [
+      "Basic nouns 1",
+      "Work"
+    ]
+  },
+  {
+    "id": "p011",
+    "type": "phrase",
+    "fr": "Je ne sais pas si j'ai cours aujourd'hui.",
+    "it": "Non so se ho lezione oggi.",
+    "cat": "Expressions",
+    "ex": "Non so = je ne sais pas."
+  },
+  {
+    "id": "p012",
+    "type": "phrase",
+    "fr": "Je ne sais pas ce que nous ferons pendant le cours aujourd'hui.",
+    "it": "Non so cosa faremo oggi durante la lezione.",
+    "cat": "Expressions",
+    "ex": "Cosa faremo = ce que nous ferons."
+  },
+  {
+    "id": "p013",
+    "type": "phrase",
+    "fr": "Je suis arrivé en retard.",
+    "it": "Sono arrivato in ritardo.",
+    "cat": "Expressions",
+    "ex": "Arrivare se conjugue avec essere au passato prossimo."
+  },
+  {
+    "id": "p014",
+    "type": "phrase",
+    "fr": "Il y a deux semaines, j'ai chanté Bella Ciao.",
+    "it": "Due settimane fa ho cantato Bella Ciao!",
+    "cat": "Travel",
+    "ex": "Cantare se conjugue avec avere."
+  },
+  {
+    "id": "p015",
+    "type": "phrase",
+    "fr": "J'étudie l'ingénierie électronique.",
+    "it": "Studio ingegneria elettronica.",
+    "cat": "Work",
+    "ex": "Ingegneria = ingénierie."
+  },
+  {
+    "id": "p016",
+    "type": "phrase",
+    "fr": "J'aime beaucoup ! L'électronique est très importante aujourd'hui.",
+    "it": "Mi piace molto! L'elettronica è molto importante oggi.",
+    "cat": "Work",
+    "ex": "Mi piace molto ; è = est."
+  },
+  {
+    "id": "p017",
+    "type": "phrase",
+    "fr": "Je voudrais travailler dans une entreprise d'électronique aérospatiale en Allemagne.",
+    "it": "Vorrei lavorare in un'azienda di elettronica aerospaziale in Germania.",
+    "cat": "Work",
+    "ex": "Vorrei + infinitif."
+  },
+  {
+    "id": "p018",
+    "type": "phrase",
+    "fr": "Je parle allemand et en Allemagne il y a beaucoup de startups aérospatiales.",
+    "it": "Parlo tedesco e in Germania ci sono molte startup aerospaziali.",
+    "cat": "Work",
+    "ex": "Ci sono = il y a (pluriel)."
+  },
+  {
+    "id": "p019",
+    "type": "phrase",
+    "fr": "Je préfère le français parce qu'il est fluide et chaleureux.",
+    "it": "Preferisco il francese perché è fluido e caldo.",
+    "cat": "Expressions",
+    "ex": "Perché = parce que / pourquoi."
+  },
+  {
+    "id": "p020",
+    "type": "phrase",
+    "fr": "Je parle anglais, français et allemand.",
+    "it": "Parlo inglese, francese e tedesco.",
+    "cat": "Expressions",
+    "ex": "En général, pas d'article après parlare + langue."
+  },
+  {
+    "id": "p021",
+    "type": "phrase",
+    "fr": "J'apprends l'italien et je voudrais apprendre le chinois à l'avenir.",
+    "it": "Sto imparando l'italiano e vorrei imparare il cinese in futuro.",
+    "cat": "Expressions",
+    "ex": "Sto imparando = je suis en train d'apprendre."
+  },
+  {
+    "id": "p022",
+    "type": "phrase",
+    "fr": "J'aime beaucoup voyager.",
+    "it": "Mi piace molto viaggiare.",
+    "cat": "Travel",
+    "ex": "Mi piace + infinitif."
+  },
+  {
+    "id": "p023",
+    "type": "phrase",
+    "fr": "Je voudrais visiter la Corée du Sud.",
+    "it": "Vorrei visitare la Corea del Sud.",
+    "cat": "Travel",
+    "ex": "Vorrei = je voudrais."
+  },
+  {
+    "id": "p024",
+    "type": "phrase",
+    "fr": "J'aime beaucoup les e-sports, en particulier l'équipe T1.",
+    "it": "Mi piacciono molto gli e-sport, in particolare la squadra T1.",
+    "cat": "Travel",
+    "ex": "Mi piacciono pour un nom pluriel."
+  },
+  {
+    "id": "p025",
+    "type": "phrase",
+    "fr": "Je n'ai jamais visité la Corée du Sud.",
+    "it": "Non ho mai visitato la Corea del Sud.",
+    "cat": "Travel",
+    "ex": "Non… mai = ne… jamais."
+  },
+  {
+    "id": "p026",
+    "type": "phrase",
+    "fr": "Je connais plusieurs joueurs de T1 : Keria et Gumayusi.",
+    "it": "Conosco parecchi giocatori di T1: Keria e Gumayusi.",
+    "cat": "Travel",
+    "ex": "Conoscere = connaître."
+  },
+  {
+    "id": "p027",
+    "type": "phrase",
+    "fr": "Je vais en Corée du Sud uniquement pour assister à un match de T1.",
+    "it": "Vado in Corea del Sud unicamente per assistere a una partita di T1.",
+    "cat": "Travel",
+    "ex": "Andare = vado ; assistere a = assister à."
+  },
+  {
+    "id": "p028",
+    "type": "phrase",
+    "fr": "Et peut-être pour avoir un autographe de Faker.",
+    "it": "E forse per avere un autografo di Faker.",
+    "cat": "Travel",
+    "ex": "Avere = avoir."
+  },
+  {
+    "id": "p029",
+    "type": "phrase",
+    "fr": "Si je pouvais vivre dans un autre pays pendant un an, lequel choisirais-je ?",
+    "it": "Se potessi vivere in un altro paese per un anno, quale paese sceglierei?",
+    "cat": "Travel",
+    "ex": "Se potessi = si je pouvais."
   }
 ]
